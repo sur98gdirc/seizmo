@@ -46,7 +46,7 @@ function [strike,dip,rake]=mt2sdr(varargin)
 % todo:
 
 % check nargin
-error(nargchk(1,1,nargin));
+error(nargchk(1,6,nargin));
 
 % check tensor format
 error(mt_check(varargin{:}));
